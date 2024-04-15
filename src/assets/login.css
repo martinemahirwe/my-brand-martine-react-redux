@@ -1,0 +1,146 @@
+.main {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+} */
+
+.log {
+  margin-top: 20px;
+}
+.login-page {
+  height: 66vh;
+}
+.left-side {
+  margin-top: 30px;
+  width: 30%;
+}
+.form-field {
+  width: 100%;
+}
+.eye input {
+  width: 99%;
+  margin-left: -6px;
+}
+.log-btn {
+  width: 50%;
+}
+.eye {
+  margin-left: -5px;
+}
+.eye span {
+  margin-left: -35px;
+}
+
+form {
+  display: grid;
+  place-items: center;
+}
+form input,
+.eye {
+  width: 100%;
+}
+.log,
+.eye,
+.sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form .forget {
+  width: 100%;
+  display: flex;
+  float: right;
+  justify-content: flex-end;
+  color: blue;
+  margin-top: -20px;
+}
+.forget p,
+.sign p {
+  border-bottom: 1px solid #ffa800;
+}
+.sign {
+  margin-top: 25px;
+}
+.sign span {
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 5px;
+}
+.hide{
+  display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+  nav {
+    display: none;
+  }
+  .active {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e89058;
+    position: fixed;
+    padding: 10px;
+    margin-top: 300px;
+    gap: 20px;
+  }
+  .log {
+    margin-top: 20px;
+  }
+  .left-side {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .active {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e89058;
+    position: fixed;
+    padding: 10px;
+    margin-top: 300px;
+    gap: 20px;
+  }
+  main {
+    height: auto;
+  }
+  .log {
+    margin-bottom: 20px;
+  }
+  .left-side {
+    margin-top: 30px;
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  main {
+    height: auto;
+  }
+  .log {
+    margin-top: 20px;
+  }
+  .left-side {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  main {
+    height: auto;
+  }
+  .log {
+    margin-top: 20px;
+  }
+  .left-side {
+    margin-bottom: 40px;
+    width: 50%;
+  }
+}
